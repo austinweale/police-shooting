@@ -23,6 +23,28 @@
   </head>
   <body>
     <!-- You may want to put your title and additional informaiton here -->
+    <h1>Police Shootings in the US</h1>
+
+    <table class="table">
+      <tr>
+        <th></th>
+        <th>Men</th>
+        <th>Women/Unspecified</th>
+      </tr>
+      <tr>
+        <td class="title">White</td>
+        <td id="white-male"></td>
+        <td id="white-woman"></td>
+      </tr>
+      <tr>
+        <td class="title">Non-white</td>
+        <td id="non-male"></td>
+        <td id="non-woman"></td>
+      </tr>
+      <tr>
+      </tr>
+    </table>
+    <p>This map shows crowdsourced police shooting data from <a href="http://regressing.deadspin.com/deadspin-police-shooting-database-update-were-still-go-1627414202">deadspin</a> Circle color indicates whether a victim was <span id = "hit">hit</span> or <span id = "killed">killed</span>. Click each point for details</p>
     <div class="container">
       <!-- This is the div that your map will go in.  You'll need to reference its id -->
       <div id="container"></div>

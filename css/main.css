@@ -1,4 +1,25 @@
 /* You'll probably want to add some styles here */
+
+h1, th, td, p{
+	text-align: center;
+}
+
+p{
+	color: gray;
+}
+
+#hit { 
+	color: black;
+}
+
+#killed{
+	color: red;
+}
+
+.title {
+	font-weight: bold;
+}
+
 #container {
 	height:800px;
 }
